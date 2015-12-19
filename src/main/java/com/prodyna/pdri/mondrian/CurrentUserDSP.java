@@ -1,4 +1,4 @@
-package com.prodyna.bi.mondrian.shemeprocessor;
+package com.prodyna.pdri.mondrian;
 
 import mondrian.olap.Util;
 import mondrian.spi.impl.FilterDynamicSchemaProcessor;
@@ -13,7 +13,7 @@ import java.io.InputStream;
  * @author Leonid Agranovskiy, PRODYNA AG
  * @date 18.12.15.
  */
-public class Processor extends FilterDynamicSchemaProcessor {
+public class CurrentUserDSP extends FilterDynamicSchemaProcessor {
 
     @Override
     protected String filter(String schemaUrl, Util.PropertyList connectInfo, InputStream stream) throws Exception {
